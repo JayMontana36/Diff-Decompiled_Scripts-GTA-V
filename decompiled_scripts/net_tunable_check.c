@@ -39,16 +39,16 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_14 = 0.001f;
+	fLocal_14 = 0,001f;
 	iLocal_17 = -1;
 	sLocal_20 = "NULL";
 	while (true)
 	{
-		if (func_7() || Global_1957920 == 1)
+		if (func_7() || Global_1957703 == 1)
 		{
 			func_6();
 		}
-		if (func_1(&uLocal_21, &Global_294351))
+		if (func_1(&uLocal_21, &Global_295821))
 		{
 			func_6();
 		}
@@ -96,7 +96,7 @@ int func_1(var uParam0, var uParam1)
 					{
 						if (iVar12 != 0 && Var3.f_5 != 0)
 						{
-							if (NETWORK::NETWORK_ACCESS_TUNABLE_FLOAT_HASH(iVar12, Var3.f_5, &fVar0))
+							if (unk_0xA0D79393A2E01ED3(iVar12, Var3.f_5, &fVar0))
 							{
 								if (fVar0 > Var3.f_1 || fVar0 < Var3.f_0)
 								{
@@ -1702,7 +1702,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 178:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
@@ -1774,7 +1774,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 186:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
@@ -1846,7 +1846,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 194:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
@@ -1936,7 +1936,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 204:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 10f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 10;
@@ -3326,8 +3326,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 355:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_COMBATMG_CLIP_02_EXPENDITURE_TUNABLE");
@@ -3335,8 +3335,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 356:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_PISTOL_SUPP_EXPENDITURE_TUNABLE");
@@ -3344,8 +3344,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 357:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_COMBATPISTOL_SUPP_EXPENDITURE_TUNABLE");
@@ -3353,8 +3353,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 358:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_APPISTOL_SUPP_EXPENDITURE_TUNABLE");
@@ -3362,8 +3362,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 359:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_MICROSMG_SUPP_EXPENDITURE_TUNABLE");
@@ -3371,8 +3371,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 360:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_MICROSMG_SCOPE_EXPENDITURE_TUNABLE");
@@ -3380,8 +3380,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 361:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_SMG_SUPP_EXPENDITURE_TUNABLE");
@@ -3389,8 +3389,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 362:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_SMG_SCOPE_EXPENDITURE_TUNABLE");
@@ -3398,8 +3398,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 363:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_ASSSMG_SUPP_EXPENDITURE_TUNABLE");
@@ -3407,8 +3407,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 364:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_ASSSMG_SCOPE_EXPENDITURE_TUNABLE");
@@ -3416,8 +3416,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 365:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_ASSRIFLE_SUPP_EXPENDITURE_TUNABLE");
@@ -3425,8 +3425,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 366:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_ASSRIFLE_SCOPE_EXPENDITURE_TUNABLE");
@@ -3434,8 +3434,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 367:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_CARBINERRIFLE_SUPP_EXPENDITURE_TUNABLE");
@@ -3443,8 +3443,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 368:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_CARBINERRIFLE_SCOPE_EXPENDITURE_TUNABLE");
@@ -3452,8 +3452,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 369:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_ADVANCEDRIFLE_SUPP_EXPENDITURE_TUNABLE");
@@ -3461,8 +3461,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 370:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_ADVANCEDRIFLE_SCOPE_EXPENDITURE_TUNABLE");
@@ -3470,8 +3470,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 371:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_MACHINEGUN_SCOPE_EXPENDITURE_TUNABLE");
@@ -3479,8 +3479,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 372:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_COMBATMG_SCOPE_EXPENDITURE_TUNABLE");
@@ -3488,8 +3488,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 373:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_PUMPSHOTGUN_SUPP_EXPENDITURE_TUNABLE");
@@ -3497,8 +3497,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 374:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_ASSHOTGUN_SUPP_EXPENDITURE_TUNABLE");
@@ -3506,8 +3506,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 375:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_SNIPER_SCOPE2_EXPENDITURE_TUNABLE");
@@ -3515,8 +3515,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 376:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_SNIPER_SUPP_EXPENDITURE_TUNABLE");
@@ -3524,8 +3524,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 377:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_HEAVYSNIPER_SCOPE2_EXPENDITURE_TUNABLE");
@@ -3533,8 +3533,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 378:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("WEAPONADDON_GRENADELAUNCHER_SCOPE_EXPENDITURE_TUNABLE");
@@ -4797,8 +4797,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 518:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L5_EXPENDITURE_TUNABLE");
@@ -4806,8 +4806,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 519:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L6_EXPENDITURE_TUNABLE");
@@ -4815,8 +4815,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 520:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L7_EXPENDITURE_TUNABLE");
@@ -4824,8 +4824,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 521:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L8_EXPENDITURE_TUNABLE");
@@ -4833,8 +4833,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 522:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L9_EXPENDITURE_TUNABLE");
@@ -4842,8 +4842,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 523:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_60_EXPENDITURE_TUNABLE");
@@ -4851,8 +4851,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 524:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_80_EXPENDITURE_TUNABLE");
@@ -4860,8 +4860,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 525:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_100_EXPENDITURE_TUNABLE");
@@ -4871,8 +4871,8 @@ void func_2(int iParam0, var uParam1)
 	switch (iParam0)
 	{
 		case 526:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BULLET_PROOF_TYRES_EXPENDITURE_TUNABLE");
@@ -4880,8 +4880,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 527:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_ORANGE_EXPENDITURE_TUNABLE");
@@ -4889,8 +4889,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 528:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_RED_EXPENDITURE_TUNABLE");
@@ -4898,8 +4898,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 529:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_YELLOW_EXPENDITURE_TUNABLE");
@@ -4907,8 +4907,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 530:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_BLUE_EXPENDITURE_TUNABLE");
@@ -4916,8 +4916,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 531:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TURBO_EXPENDITURE_TUNABLE");
@@ -4925,8 +4925,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 532:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_PRIMARYCOLORCREW_EXPENDITURE_TUNABLE");
@@ -4934,8 +4934,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 533:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SECONDARYCOLORCREW_EXPENDITURE_TUNABLE");
@@ -4943,8 +4943,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 534:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_CREWEMBLEM_EXPENDITURE_TUNABLE");
@@ -4952,8 +4952,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 535:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELCOLOURS_EXPENDITURE_TUNABLE");
@@ -4961,8 +4961,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 536:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_CREWSMOKE_EXPENDITURE_TUNABLE");
@@ -4970,8 +4970,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 537:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELSHIGHEND_EXPENDITURE_TUNABLE");
@@ -4979,8 +4979,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 538:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELSSPORT_EXPENDITURE_TUNABLE");
@@ -4988,8 +4988,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 539:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELSLOWRIDER_EXPENDITURE_TUNABLE");
@@ -4997,8 +4997,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 540:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELSSUV_EXPENDITURE_TUNABLE");
@@ -5006,8 +5006,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 541:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELSMUSCLE_EXPENDITURE_TUNABLE");
@@ -5015,8 +5015,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 542:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELSTUNER_EXPENDITURE_TUNABLE");
@@ -5024,8 +5024,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 543:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELSOFFROAD_EXPENDITURE_TUNABLE");
@@ -5033,8 +5033,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 544:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELSBIKE_EXPENDITURE_TUNABLE");
@@ -5042,8 +5042,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 545:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_60_EXPENDITURE_TUNABLE_SUV");
@@ -5051,8 +5051,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 546:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_80_EXPENDITURE_TUNABLE_SUV");
@@ -5060,8 +5060,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 547:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_100_EXPENDITURE_TUNABLE_SUV");
@@ -5069,8 +5069,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 548:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BRAKES_L2_EXPENDITURE_TUNABLE_SUV");
@@ -5078,8 +5078,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 549:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BRAKES_L3_EXPENDITURE_TUNABLE_SUV");
@@ -5087,8 +5087,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 550:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BRAKES_L4_EXPENDITURE_TUNABLE_SUV");
@@ -5096,8 +5096,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 551:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_ENGINE_L5_EXPENDITURE_TUNABLE_SUV");
@@ -5105,8 +5105,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 552:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L5_EXPENDITURE_TUNABLE_SUV");
@@ -5114,8 +5114,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 553:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L6_EXPENDITURE_TUNABLE_SUV");
@@ -5123,8 +5123,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 554:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L7_EXPENDITURE_TUNABLE_SUV");
@@ -5132,8 +5132,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 555:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L8_EXPENDITURE_TUNABLE_SUV");
@@ -5141,8 +5141,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 556:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L9_EXPENDITURE_TUNABLE_SUV");
@@ -5150,8 +5150,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 557:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_PRIMARYCOLORCREW_EXPENDITURE_TUNABLE_SUV");
@@ -5159,8 +5159,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 558:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SECONDARYCOLORCREW_EXPENDITURE_TUNABLE_SUV");
@@ -5168,8 +5168,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 559:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_CREWEMBLEM_EXPENDITURE_TUNABLE_SUV");
@@ -5177,8 +5177,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 560:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_GEAR_BOX_L2_EXPENDITURE_TUNABLE_SUV");
@@ -5186,8 +5186,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 561:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_GEAR_BOX_L3_EXPENDITURE_TUNABLE_SUV");
@@ -5195,8 +5195,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 562:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_GEAR_BOX_L4_EXPENDITURE_TUNABLE_SUV");
@@ -5204,8 +5204,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 563:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TURBO_EXPENDITURE_TUNABLE_SUV");
@@ -5213,8 +5213,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 564:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELCOLOURS_EXPENDITURE_TUNABLE_SUV");
@@ -5222,8 +5222,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 565:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BULLET_PROOF_TYRES_EXPENDITURE_TUNABLE_SUV");
@@ -5231,8 +5231,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 566:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_BLUE_EXPENDITURE_TUNABLE_SUV");
@@ -5240,8 +5240,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 567:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_YELLOW_EXPENDITURE_TUNABLE_SUV");
@@ -5249,8 +5249,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 568:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_ORANGE_EXPENDITURE_TUNABLE_SUV");
@@ -5258,8 +5258,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 569:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_RED_EXPENDITURE_TUNABLE_SUV");
@@ -5267,8 +5267,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 570:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_CREWSMOKE_EXPENDITURE_TUNABLE_SUV");
@@ -5276,8 +5276,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 571:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_40_EXPENDITURE_TUNABLE_SPORT");
@@ -5285,8 +5285,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 572:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_60_EXPENDITURE_TUNABLE_SPORT");
@@ -5294,8 +5294,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 573:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_80_EXPENDITURE_TUNABLE_SPORT");
@@ -5303,8 +5303,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 574:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_100_EXPENDITURE_TUNABLE_SPORT");
@@ -5312,8 +5312,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 575:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BRAKES_L2_EXPENDITURE_TUNABLE_SPORT");
@@ -5321,8 +5321,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 576:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BRAKES_L3_EXPENDITURE_TUNABLE_SPORT");
@@ -5330,8 +5330,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 577:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BRAKES_L4_EXPENDITURE_TUNABLE_SPORT");
@@ -5339,8 +5339,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 578:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_ENGINE_L4_EXPENDITURE_TUNABLE_SPORT");
@@ -5348,8 +5348,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 579:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_ENGINE_L5_EXPENDITURE_TUNABLE_SPORT");
@@ -5357,8 +5357,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 580:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L5_EXPENDITURE_TUNABLE_SPORT");
@@ -5366,8 +5366,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 581:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L6_EXPENDITURE_TUNABLE_SPORT");
@@ -5375,8 +5375,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 582:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L7_EXPENDITURE_TUNABLE_SPORT");
@@ -5384,8 +5384,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 583:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L8_EXPENDITURE_TUNABLE_SPORT");
@@ -5393,8 +5393,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 584:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L9_EXPENDITURE_TUNABLE_SPORT");
@@ -5402,8 +5402,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 585:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_PRIMARYCOLORCREW_EXPENDITURE_TUNABLE_SPORT");
@@ -5411,8 +5411,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 586:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SECONDARYCOLORCREW_EXPENDITURE_TUNABLE_SPORT");
@@ -5422,8 +5422,8 @@ void func_2(int iParam0, var uParam1)
 	switch (iParam0)
 	{
 		case 587:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_CREWEMBLEM_EXPENDITURE_TUNABLE_SPORT");
@@ -5431,8 +5431,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 588:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_GEAR_BOX_L2_EXPENDITURE_TUNABLE_SPORT");
@@ -5440,8 +5440,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 589:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_GEAR_BOX_L3_EXPENDITURE_TUNABLE_SPORT");
@@ -5449,8 +5449,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 590:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_GEAR_BOX_L4_EXPENDITURE_TUNABLE_SPORT");
@@ -5458,8 +5458,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 591:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TURBO_EXPENDITURE_TUNABLE_SPORT");
@@ -5467,8 +5467,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 592:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELCOLOURS_EXPENDITURE_TUNABLE_SPORT");
@@ -5476,8 +5476,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 593:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BULLET_PROOF_TYRES_EXPENDITURE_TUNABLE_SPORT");
@@ -5485,8 +5485,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 594:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_BLUE_EXPENDITURE_TUNABLE_SPORT");
@@ -5494,8 +5494,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 595:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_YELLOW_EXPENDITURE_TUNABLE_SPORT");
@@ -5503,8 +5503,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 596:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_ORANGE_EXPENDITURE_TUNABLE_SPORT");
@@ -5512,8 +5512,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 597:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_RED_EXPENDITURE_TUNABLE_SPORT");
@@ -5521,8 +5521,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 598:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_CREWSMOKE_EXPENDITURE_TUNABLE_SPORT");
@@ -5530,8 +5530,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 599:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_40_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5539,8 +5539,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 600:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_60_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5548,8 +5548,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 601:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_80_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5557,8 +5557,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 602:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_100_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5566,8 +5566,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 603:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BRAKES_L2_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5575,8 +5575,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 604:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BRAKES_L3_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5584,8 +5584,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 605:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BRAKES_L4_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5593,8 +5593,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 606:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_F_BUMPER_L4_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5602,8 +5602,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 607:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_F_BUMPER_L5_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5611,8 +5611,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 608:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_F_BUMPER_L6_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5620,8 +5620,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 609:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_F_BUMPER_L7_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5629,8 +5629,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 610:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_R_BUMPER_L4_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5638,8 +5638,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 611:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_R_BUMPER_L5_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5647,8 +5647,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 612:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_ENGINE_L3_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5656,8 +5656,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 613:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_ENGINE_L4_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5665,8 +5665,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 614:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_ENGINE_L5_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5674,8 +5674,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 615:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BONNET_L6_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5683,8 +5683,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 616:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BONNET_L7_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5692,8 +5692,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 617:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L5_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5701,8 +5701,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 618:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L6_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5710,8 +5710,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 619:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L7_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5719,8 +5719,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 620:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L8_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5728,8 +5728,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 621:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L9_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5737,8 +5737,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 622:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_PRIMARYCOLORCREW_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5746,8 +5746,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 623:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SECONDARYCOLORCREW_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5755,8 +5755,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 624:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_CREWEMBLEM_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5764,8 +5764,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 625:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SKIRTS_L4_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5773,8 +5773,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 626:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SKIRTS_L5_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5782,8 +5782,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 627:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SPOILER_L2_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5791,8 +5791,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 628:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SPOILER_L3_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5800,8 +5800,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 629:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SPOILER_L4_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5809,8 +5809,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 630:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SPOILER_L5_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5818,8 +5818,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 631:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_GEAR_BOX_L2_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5827,8 +5827,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 632:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_GEAR_BOX_L3_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5836,8 +5836,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 633:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_GEAR_BOX_L4_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5845,8 +5845,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 634:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TURBO_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5854,8 +5854,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 635:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELCOLOURS_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5863,8 +5863,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 636:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BULLET_PROOF_TYRES_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5872,8 +5872,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 637:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_BLUE_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5881,8 +5881,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 638:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_YELLOW_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5890,8 +5890,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 639:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_ORANGE_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5899,8 +5899,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 640:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_RED_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5908,8 +5908,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 641:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_CREWSMOKE_EXPENDITURE_TUNABLE_SPECIAL");
@@ -5917,8 +5917,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 642:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_80_EXPENDITURE_TUNABLE_BIKE");
@@ -5926,8 +5926,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 643:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BODY_ARMOUR_100_EXPENDITURE_TUNABLE_BIKE");
@@ -5935,8 +5935,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 644:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L5_EXPENDITURE_TUNABLE_BIKE");
@@ -5944,8 +5944,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 645:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L6_EXPENDITURE_TUNABLE_BIKE");
@@ -5953,8 +5953,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 646:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L7_EXPENDITURE_TUNABLE_BIKE");
@@ -5962,8 +5962,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 647:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L8_EXPENDITURE_TUNABLE_BIKE");
@@ -5973,8 +5973,8 @@ void func_2(int iParam0, var uParam1)
 	switch (iParam0)
 	{
 		case 648:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_HORN_L9_EXPENDITURE_TUNABLE_BIKE");
@@ -5982,8 +5982,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 649:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_PRIMARYCOLORCREW_EXPENDITURE_TUNABLE_BIKE");
@@ -5991,8 +5991,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 650:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_SECONDARYCOLORCREW_EXPENDITURE_TUNABLE_BIKE");
@@ -6000,8 +6000,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 651:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_CREWEMBLEM_EXPENDITURE_TUNABLE_BIKE");
@@ -6009,8 +6009,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 652:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TURBO_EXPENDITURE_TUNABLE_BIKE");
@@ -6018,8 +6018,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 653:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_WHEELCOLOURS_EXPENDITURE_TUNABLE_BIKE");
@@ -6027,8 +6027,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 654:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_BULLET_PROOF_TYRES_EXPENDITURE_TUNABLE_BIKE");
@@ -6036,8 +6036,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 655:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_BLUE_EXPENDITURE_TUNABLE_BIKE");
@@ -6045,8 +6045,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 656:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_YELLOW_EXPENDITURE_TUNABLE_BIKE");
@@ -6054,8 +6054,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 657:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_ORANGE_EXPENDITURE_TUNABLE_BIKE");
@@ -6063,8 +6063,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 658:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_TYRE_SMOKE_RED_EXPENDITURE_TUNABLE_BIKE");
@@ -6072,8 +6072,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 659:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("CARMOD_UNLOCK_CREWSMOKE_EXPENDITURE_TUNABLE_BIKE");
@@ -6081,8 +6081,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 660:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("Discount_Male_Masks_Bone_Skull");
@@ -6090,8 +6090,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 661:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("Discount_Male_Masks_Pogo");
@@ -6099,8 +6099,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 662:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("Discount_Male_Masks_Green_Ape");
@@ -6108,8 +6108,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 663:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("Discount_Male_Masks_Pink_Ape");
@@ -6117,8 +6117,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 664:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("Discount_Male_Masks_Red_Monster");
@@ -6126,8 +6126,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 665:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("Discount_Female_Masks_Bone_Skull");
@@ -6135,8 +6135,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 666:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("Discount_Female_Masks_Pogo");
@@ -6144,8 +6144,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 667:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("Discount_Female_Masks_Green_Ape");
@@ -6153,8 +6153,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 668:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("Discount_Female_Masks_Pink_Ape");
@@ -6162,8 +6162,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 669:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("Discount_Female_Masks_Red_Monster");
@@ -6171,8 +6171,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 670:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("MAKEUP_UNLOCKS_SERPENTINE_EXPENDITURE_TUNABLE");
@@ -6180,8 +6180,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 671:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("MAKEUP_UNLOCKS_TRAPPEDINABOX_EXPENDITURE_TUNABLE");
@@ -6189,8 +6189,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 672:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("MAKEUP_UNLOCKS_CLOWNING_EXPENDITURE_TUNABLE");
@@ -6198,8 +6198,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 673:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_HEAD_BANGER_EXPENDITURE_TUNABLE");
@@ -6207,8 +6207,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 674:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_HUSTLER_EXPENDITURE_TUNABLE");
@@ -6216,8 +6216,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 675:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_WIN_EVER_MODE_ONCE_EXPENDITURE_TUNABLE");
@@ -6225,8 +6225,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 676:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_HOLD_UP_SHOPS_4_EXPENDITURE_TUNABLE");
@@ -6234,8 +6234,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 677:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = 1914127564;
@@ -6243,8 +6243,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 678:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = 983218273;
@@ -6252,8 +6252,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 679:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = 178678567;
@@ -6261,8 +6261,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 680:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_13_EXPENDITURE_TUNABLE");
@@ -6270,8 +6270,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 681:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_16_EXPENDITURE_TUNABLE");
@@ -6279,8 +6279,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 682:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_17_EXPENDITURE_TUNABLE");
@@ -6288,8 +6288,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 683:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_19_EXPENDITURE_TUNABLE");
@@ -6297,8 +6297,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 684:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = 1411998323;
@@ -6306,8 +6306,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 685:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_25_EXPENDITURE_TUNABLE");
@@ -6315,8 +6315,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 686:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_38_EXPENDITURE_TUNABLE");
@@ -6324,8 +6324,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 687:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("TATTOO_MP_FM_46_EXPENDITURE_TUNABLE");
@@ -6333,8 +6333,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 688:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_PARASMOKE_RED_EXPENDITURE_TUNABLE");
@@ -6342,8 +6342,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 689:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_PARASMOKE_ORANGE_EXPENDITURE_TUNABLE");
@@ -6351,8 +6351,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 690:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_PARASMOKE_YELLOW_EXPENDITURE_TUNABLE");
@@ -6360,8 +6360,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 691:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_PARASMOKE_BLACK_EXPENDITURE_TUNABLE");
@@ -6369,8 +6369,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 692:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_PARASMOKE_BLUE_EXPENDITURE_TUNABLE");
@@ -6378,8 +6378,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 693:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_RAINBOW_PARACHUTE_EXPENDITURE_TUNABLE");
@@ -6387,8 +6387,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 694:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_RED_PARACHUTE_EXPENDITURE_TUNABLE");
@@ -6396,8 +6396,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 695:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_YELLOWWHITEBLUE_PARACHUTE_EXPENDITURE_TUNABLE");
@@ -6405,8 +6405,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 696:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_WHITEREDBROWN_PARACHUTE_EXPENDITURE_TUNABLE");
@@ -6414,8 +6414,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 697:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_BLUEWHITERED_PARACHUTE_EXPENDITURE_TUNABLE");
@@ -6423,8 +6423,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 698:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_BLUE_PARACHUTE_EXPENDITURE_TUNABLE");
@@ -6434,8 +6434,8 @@ void func_2(int iParam0, var uParam1)
 	switch (iParam0)
 	{
 		case 699:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_BLACK_PARACHUTE_EXPENDITURE_TUNABLE");
@@ -6443,8 +6443,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 700:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_FM_BROWNYELLOW_PARACHUTE_EXPENDITURE_TUNABLE");
@@ -6452,8 +6452,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 701:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_WEAPON_EXPENDITURE_TUNABLE");
@@ -6461,8 +6461,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 702:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_WEAPON_EXPENDITURE_TUNABLE");
@@ -6470,8 +6470,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 703:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_PISTOL_EXPENDITURE_TUNABLE");
@@ -6479,8 +6479,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 704:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_CMBTPISTOL_EXPENDITURE_TUNABLE");
@@ -6488,8 +6488,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 705:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_APPISTOL_EXPENDITURE_TUNABLE");
@@ -6497,8 +6497,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 706:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_MICROSMG_EXPENDITURE_TUNABLE");
@@ -6506,8 +6506,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 707:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_SMG_EXPENDITURE_TUNABLE");
@@ -6515,8 +6515,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 708:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_ASLTRIFLE_EXPENDITURE_TUNABLE");
@@ -6524,8 +6524,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 709:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_CRBNRIFLE_EXPENDITURE_TUNABLE");
@@ -6533,8 +6533,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 710:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_ADVRRIFLE_EXPENDITURE_TUNABLE");
@@ -6542,8 +6542,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 711:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_MG_EXPENDITURE_TUNABLE");
@@ -6551,8 +6551,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 712:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_CMBTMG_EXPENDITURE_TUNABLE");
@@ -6560,8 +6560,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 713:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_PUMP_EXPENDITURE_TUNABLE");
@@ -6569,8 +6569,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 714:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_SAWOFF_EXPENDITURE_TUNABLE");
@@ -6578,8 +6578,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 715:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_ASLTSHTGN_EXPENDITURE_TUNABLE");
@@ -6587,8 +6587,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 716:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_SNIPERRFL_EXPENDITURE_TUNABLE");
@@ -6596,8 +6596,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 717:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_GRNLAUNCH_EXPENDITURE_TUNABLE");
@@ -6605,8 +6605,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 718:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_RPG_EXPENDITURE_TUNABLE");
@@ -6614,8 +6614,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 719:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_MINIGUN_EXPENDITURE_TUNABLE");
@@ -6623,8 +6623,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 720:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_PISTOL_EXPENDITURE_TUNABLE");
@@ -6632,8 +6632,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 721:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_CMBTPISTOL_EXPENDITURE_TUNABLE");
@@ -6641,8 +6641,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 722:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_APPISTOL_EXPENDITURE_TUNABLE");
@@ -6650,8 +6650,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 723:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_MICROSMG_EXPENDITURE_TUNABLE");
@@ -6659,8 +6659,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 724:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_SMG_EXPENDITURE_TUNABLE");
@@ -6668,8 +6668,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 725:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_ASLTRIFLE_EXPENDITURE_TUNABLE");
@@ -6677,8 +6677,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 726:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_CRBNRIFLE_EXPENDITURE_TUNABLE");
@@ -6686,8 +6686,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 727:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_ADVRRIFLE_EXPENDITURE_TUNABLE");
@@ -6695,8 +6695,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 728:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_MG_EXPENDITURE_TUNABLE");
@@ -6704,8 +6704,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 729:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_CMBTMG_EXPENDITURE_TUNABLE");
@@ -6713,8 +6713,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 730:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_PUMP_EXPENDITURE_TUNABLE");
@@ -6722,8 +6722,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 731:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_SAWOFF_EXPENDITURE_TUNABLE");
@@ -6731,8 +6731,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 732:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_ASLTSHTGN_EXPENDITURE_TUNABLE");
@@ -6740,8 +6740,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 733:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_SNIPERRFL_EXPENDITURE_TUNABLE");
@@ -6749,8 +6749,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 734:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_GRNLAUNCH_EXPENDITURE_TUNABLE");
@@ -6758,8 +6758,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 735:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_RPG_EXPENDITURE_TUNABLE");
@@ -6767,8 +6767,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 736:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_MINIGUN_EXPENDITURE_TUNABLE");
@@ -6776,8 +6776,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 737:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_GOLD_DLC_ASSAULTSMG_EXPENDITURE_TUNABLE");
@@ -6785,8 +6785,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 738:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = joaat("PLAYERKIT_PLATINUM_DLC_ASSAULTSMG_EXPENDITURE_TUNABLE");
@@ -6794,8 +6794,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 739:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = 193513430;
@@ -6803,8 +6803,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 740:
-			*uParam1 = 0.5f;
-			uParam1->f_1 = 1.2f;
+			*uParam1 = 0,5f;
+			uParam1->f_1 = 1,2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = 1232863007;
@@ -7738,7 +7738,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 843:
-			*uParam1 = 0.1f;
+			*uParam1 = 0,1f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -8406,7 +8406,7 @@ void func_2(int iParam0, var uParam1)
 		
 		case 915:
 			*uParam1 = 0f;
-			uParam1->f_1 = 4.5f;
+			uParam1->f_1 = 4,5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
 			uParam1->f_5 = joaat("CONTACT_MISSION_RP_TIME_PERIOD_7_PERCENTAGE");
@@ -8426,7 +8426,7 @@ void func_2(int iParam0, var uParam1)
 	{
 		case 917:
 			*uParam1 = 0f;
-			uParam1->f_1 = 5.5f;
+			uParam1->f_1 = 5,5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 6;
 			uParam1->f_5 = joaat("CONTACT_MISSION_RP_TIME_PERIOD_9_PERCENTAGE");
@@ -9415,7 +9415,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1025:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -9424,7 +9424,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1026:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -9433,7 +9433,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1027:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -9442,7 +9442,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1028:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -9451,7 +9451,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1029:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -9460,7 +9460,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1030:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -9469,7 +9469,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1031:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -9478,7 +9478,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1032:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -9487,7 +9487,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1033:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -9496,7 +9496,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1034:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -9505,7 +9505,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1035:
-			*uParam1 = 0.6f;
+			*uParam1 = 0,6f;
 			uParam1->f_1 = 1f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 1;
@@ -11369,7 +11369,7 @@ void func_2(int iParam0, var uParam1)
 		
 		case 1245:
 			*uParam1 = 0f;
-			uParam1->f_1 = 4.5f;
+			uParam1->f_1 = 4,5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 5;
 			uParam1->f_5 = 1189510226;
@@ -11387,7 +11387,7 @@ void func_2(int iParam0, var uParam1)
 		
 		case 1247:
 			*uParam1 = 0f;
-			uParam1->f_1 = 5.5f;
+			uParam1->f_1 = 5,5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 6;
 			uParam1->f_5 = -1019356302;
@@ -12020,7 +12020,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1317:
-			*uParam1 = 0.1f;
+			*uParam1 = 0,1f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -12029,8 +12029,8 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1318:
-			*uParam1 = 0.0001f;
-			uParam1->f_1 = 1.5f;
+			*uParam1 = 0,0001f;
+			uParam1->f_1 = 1,5f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = 373723198;
@@ -13169,7 +13169,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1444:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13178,7 +13178,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1445:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13187,7 +13187,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1446:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13196,7 +13196,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1447:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13205,7 +13205,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1448:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13214,7 +13214,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1449:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13223,7 +13223,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1450:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13232,7 +13232,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1451:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13241,7 +13241,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1452:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13250,7 +13250,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1453:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13259,7 +13259,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1454:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13268,7 +13268,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1455:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13277,7 +13277,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1456:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 1;
 			uParam1->f_3 = 2;
@@ -13288,7 +13288,7 @@ void func_2(int iParam0, var uParam1)
 	switch (iParam0)
 	{
 		case 1457:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13297,7 +13297,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1458:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13306,7 +13306,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1459:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13315,7 +13315,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1460:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13324,7 +13324,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1461:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13333,7 +13333,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1462:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13342,7 +13342,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1463:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13351,7 +13351,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1464:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13360,7 +13360,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1465:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13369,7 +13369,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1466:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13378,7 +13378,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1467:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -13642,7 +13642,7 @@ void func_2(int iParam0, var uParam1)
 		
 		case 1496:
 			*uParam1 = 2500000f;
-			uParam1->f_1 = 1.25E+07f;
+			uParam1->f_1 = 1,25E+07f;
 			uParam1->f_2 = 2500000;
 			uParam1->f_3 = 12500000;
 			uParam1->f_5 = joaat("LUXE1_WEBSITE_BUCKINGHAM_LUXOR_DELUXE");
@@ -14547,7 +14547,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1596:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14556,7 +14556,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1597:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14565,7 +14565,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1598:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14574,7 +14574,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1599:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14583,7 +14583,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1600:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14592,7 +14592,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1601:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14601,7 +14601,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1602:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14610,7 +14610,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1603:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14619,7 +14619,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1604:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14628,7 +14628,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1605:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14637,7 +14637,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1606:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14646,7 +14646,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1607:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14655,7 +14655,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1608:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14664,7 +14664,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1609:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14673,7 +14673,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1610:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14682,7 +14682,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1611:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14691,7 +14691,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1612:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14700,7 +14700,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1613:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14709,7 +14709,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1614:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -14718,7 +14718,7 @@ void func_2(int iParam0, var uParam1)
 			break;
 		
 		case 1615:
-			*uParam1 = 0.5f;
+			*uParam1 = 0,5f;
 			uParam1->f_1 = 2f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
@@ -16135,7 +16135,7 @@ void func_2(int iParam0, var uParam1)
 		
 		case 1753:
 			*uParam1 = 1f;
-			uParam1->f_1 = 1.15f;
+			uParam1->f_1 = 1,15f;
 			uParam1->f_2 = 0;
 			uParam1->f_3 = 2;
 			uParam1->f_5 = 1757252586;
@@ -19680,7 +19680,7 @@ void func_2(int iParam0, var uParam1)
 		
 		case 2157:
 			*uParam1 = 100000f;
-			uParam1->f_1 = 3.5E+07f;
+			uParam1->f_1 = 3,5E+07f;
 			uParam1->f_2 = 100000;
 			uParam1->f_3 = 35000000;
 			uParam1->f_5 = -1112039416;
@@ -21349,11 +21349,11 @@ void func_2(int iParam0, var uParam1)
 
 int func_3()
 {
-	if (Global_2722503)
+	if (Global_2722673)
 	{
 		return 32;
 	}
-	return (32 - Global_2722504);
+	return (32 - Global_2722674);
 }
 
 int func_4(int iParam0)
@@ -21501,7 +21501,7 @@ void func_6()
 
 int func_7()
 {
-	if (Global_1575030 == 0)
+	if (Global_1575033 == 0)
 	{
 		if (!NETWORK::NETWORK_IS_GAME_IN_PROGRESS())
 		{
@@ -21512,7 +21512,7 @@ int func_7()
 	{
 		return 1;
 	}
-	if (Global_2727490)
+	if (Global_2727795)
 	{
 		return 1;
 	}
@@ -21562,7 +21562,7 @@ int func_8()
 
 int func_9()
 {
-	switch (Global_2727594)
+	switch (Global_2727899)
 	{
 		case 0:
 			return joaat("freemode");
@@ -21574,12 +21574,12 @@ int func_9()
 
 int func_10()
 {
-	return Global_31511;
+	return Global_31959;
 }
 
 bool func_11()
 {
-	return Global_2714635.f_698;
+	return Global_2714762.f_698;
 }
 
 int func_12(int iParam0)
@@ -21593,11 +21593,11 @@ int func_12(int iParam0)
 
 bool func_13()
 {
-	return Global_2725233;
+	return Global_2725403;
 }
 
 bool func_14()
 {
-	return Global_2714635.f_693;
+	return Global_2714762.f_693;
 }
 

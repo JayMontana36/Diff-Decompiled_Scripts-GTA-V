@@ -91,7 +91,7 @@ int func_2()
 {
 	struct<3> Var0;
 	
-	Var0 = { 2f, 2f, 0.5f };
+	Var0 = { 2f, 2f, 0,5f };
 	if (!PED::IS_PED_INJURED(PLAYER::PLAYER_PED_ID()))
 	{
 		if (!PED::IS_PED_INJURED(iLocal_1))

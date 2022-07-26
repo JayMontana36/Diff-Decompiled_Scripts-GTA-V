@@ -107,12 +107,12 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_14 = 0.001f;
+	fLocal_14 = 0,001f;
 	iLocal_17 = -1;
 	sLocal_21 = "NULL";
 	fLocal_24 = 0f;
-	fLocal_28 = -0.0375f;
-	fLocal_29 = 0.17f;
+	fLocal_28 = -0,0375f;
+	fLocal_29 = 0,17f;
 	fLocal_33 = 80f;
 	fLocal_34 = 140f;
 	fLocal_35 = 180f;

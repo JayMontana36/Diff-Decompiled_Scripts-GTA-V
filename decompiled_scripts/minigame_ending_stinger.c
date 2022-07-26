@@ -34,7 +34,7 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_14 = 0.001f;
+	fLocal_14 = 0,001f;
 	iLocal_17 = -1;
 	iVar0 = -1;
 	bVar1 = false;
@@ -120,7 +120,7 @@ int func_2(int iParam0)
 
 var func_3(int iParam0)
 {
-	return Global_1918[iParam0 /*29*/];
+	return Global_1998[iParam0 /*29*/];
 }
 
 bool func_4(int iParam0)

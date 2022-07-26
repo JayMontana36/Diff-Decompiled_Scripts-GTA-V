@@ -34,7 +34,7 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_14 = 0.001f;
+	fLocal_14 = 0,001f;
 	iLocal_17 = -1;
 	if (PLAYER::HAS_FORCE_CLEANUP_OCCURRED(3))
 	{
@@ -46,15 +46,15 @@ void __EntryFunction__()
 	{
 		SYSTEM::WAIT(0);
 	}
-	Local_19[0 /*3*/] = { 1169.976f, 3592.572f, 32.6481f };
-	Local_19[1 /*3*/] = { 1215.738f, 3586.608f, 33.5131f };
-	fLocal_26[0] = 277.7043f;
-	fLocal_26[1] = 77.1113f;
+	Local_19[0 /*3*/] = { 1169,976f, 3592,572f, 32,6481f };
+	Local_19[1 /*3*/] = { 1215,738f, 3586,608f, 33,5131f };
+	fLocal_26[0] = 277,7043f;
+	fLocal_26[1] = 77,1113f;
 	if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
 	{
-		ENTITY::SET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), 1220.202f, 3596.281f, 33.259f, true, false, false, true);
+		ENTITY::SET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), 1220,202f, 3596,281f, 33,259f, true, false, false, true);
 	}
-	STREAMING::LOAD_SCENE(1220.202f, 3596.281f, 33.259f);
+	STREAMING::LOAD_SCENE(1220,202f, 3596,281f, 33,259f);
 	iLocal_18 = VEHICLE::CREATE_VEHICLE(joaat("cuban800"), Local_19[0 /*3*/], fLocal_26[0], true, true, false);
 	VEHICLE::SET_VEHICLE_ON_GROUND_PROPERLY(iLocal_18, 5f);
 	STREAMING::SET_MODEL_AS_NO_LONGER_NEEDED(joaat("cuban800"));

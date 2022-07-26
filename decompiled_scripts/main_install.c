@@ -48,12 +48,12 @@ void __EntryFunction__()
 	PLAYER::SET_PLAYER_MODEL(PLAYER::PLAYER_ID(), joaat("csb_prolsec"));
 	if (!ENTITY::IS_ENTITY_DEAD(PLAYER::PLAYER_PED_ID(), false))
 	{
-		ENTITY::SET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), 5313.8f, -5207.2f, 83.5f, true, false, false, true);
-		ENTITY::SET_ENTITY_HEADING(PLAYER::PLAYER_PED_ID(), 169.2f);
+		ENTITY::SET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), 5313,8f, -5207,2f, 83,5f, true, false, false, true);
+		ENTITY::SET_ENTITY_HEADING(PLAYER::PLAYER_PED_ID(), 169,2f);
 	}
 	HUD::DISPLAY_RADAR(false);
 	PLAYER::SET_PLAYER_CONTROL(PLAYER::PLAYER_ID(), false, 0);
-	STREAMING::NEW_LOAD_SCENE_START_SPHERE(5312.996f, -5208.671f, 83.90526f, 10f, 0);
+	STREAMING::NEW_LOAD_SCENE_START_SPHERE(5312,996f, -5208,671f, 83,90526f, 10f, 0);
 	iVar0 = MISC::GET_GAME_TIMER() + 10000;
 	while (!STREAMING::IS_NEW_LOAD_SCENE_LOADED() && MISC::GET_GAME_TIMER() < iVar0)
 	{
@@ -70,9 +70,9 @@ void __EntryFunction__()
 		{
 			CAM::DO_SCREEN_FADE_IN(0);
 		}
-		GRAPHICS::DRAW_RECT(0.5f, 0.5f, 1f, 1f, 0, 0, 0, 255, false);
-		GRAPHICS::DRAW_RECT(0.5f, 0.5f, 0.8f, 0.8f, 20, 20, 20, 255, false);
-		HUD::SET_TEXT_SCALE(0.5f, 0.5f);
+		GRAPHICS::DRAW_RECT(0,5f, 0,5f, 1f, 1f, 0, 0, 0, 255, false);
+		GRAPHICS::DRAW_RECT(0,5f, 0,5f, 0,8f, 0,8f, 20, 20, 20, 255, false);
+		HUD::SET_TEXT_SCALE(0,5f, 0,5f);
 		HUD::SET_TEXT_CENTRE(true);
 		if (SYSTEM::TIMERA() > 10000 && HUD::HAS_ADDITIONAL_TEXT_LOADED(0))
 		{
@@ -88,23 +88,23 @@ void __EntryFunction__()
 			switch (iLocal_0)
 			{
 				case 0:
-					func_1(0.5f, 0.4f, "NG_INST_TT_1", 0);
+					func_1(0,5f, 0,4f, "NG_INST_TT_1", 0);
 					break;
 				
 				case 1:
-					func_1(0.5f, 0.4f, "NG_INST_TT_2", 0);
+					func_1(0,5f, 0,4f, "NG_INST_TT_2", 0);
 					break;
 				
 				case 2:
-					func_1(0.5f, 0.4f, "NG_INST_TT_3", 0);
+					func_1(0,5f, 0,4f, "NG_INST_TT_3", 0);
 					break;
 				
 				case 3:
-					func_1(0.5f, 0.4f, "NG_INST_TT_4", 0);
+					func_1(0,5f, 0,4f, "NG_INST_TT_4", 0);
 					break;
 				
 				case 4:
-					func_1(0.5f, 0.4f, "NG_INST_TT_5", 0);
+					func_1(0,5f, 0,4f, "NG_INST_TT_5", 0);
 					break;
 				}
 		}

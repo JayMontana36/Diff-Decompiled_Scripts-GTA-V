@@ -77,21 +77,21 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_14 = 0.001f;
+	fLocal_14 = 0,001f;
 	iLocal_17 = -1;
 	sLocal_18 = "NULL";
 	fLocal_23 = 80f;
 	fLocal_24 = 140f;
 	fLocal_25 = 180f;
 	fLocal_28 = 0f;
-	fLocal_32 = -0.0375f;
-	fLocal_33 = 0.17f;
+	fLocal_32 = -0,0375f;
+	fLocal_33 = 0,17f;
 	iLocal_36 = 3;
 	iLocal_40 = 1;
 	iLocal_41 = 65;
 	iLocal_42 = 49;
 	iLocal_43 = 64;
-	fLocal_62 = ((0.05f + 0.275f) - 0.01f);
+	fLocal_62 = ((0,05f + 0,275f) - 0,01f);
 	func_12();
 	while (true)
 	{
@@ -154,15 +154,15 @@ bool func_4(int iParam0)
 
 bool func_5()
 {
-	return Global_1853131[PLAYER::PLAYER_ID() /*888*/].f_192 != 0;
+	return Global_1853348[PLAYER::PLAYER_ID() /*834*/].f_192 != 0;
 }
 
 int func_6(int iParam0)
 {
-	if (Global_31789.f_61 < 20)
+	if (Global_32237.f_61 < 20)
 	{
-		Global_31789[Global_31789.f_61 /*3*/] = { *iParam0 };
-		Global_31789.f_61++;
+		Global_32237[Global_32237.f_61 /*3*/] = { *iParam0 };
+		Global_32237.f_61++;
 		return 1;
 	}
 	return 0;
@@ -172,9 +172,9 @@ int func_7(int iParam0, var uParam1)
 {
 	*uParam1 = 0;
 	*uParam1 = 0;
-	while (*uParam1 < Global_31789.f_61)
+	while (*uParam1 < Global_32237.f_61)
 	{
-		if (Global_31789[*uParam1 /*3*/] == *iParam0 && Global_31789[*uParam1 /*3*/].f_2 == iParam0->f_2)
+		if (Global_32237[*uParam1 /*3*/] == *iParam0 && Global_32237[*uParam1 /*3*/].f_2 == iParam0->f_2)
 		{
 			return 1;
 		}

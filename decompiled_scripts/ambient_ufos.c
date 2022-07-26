@@ -108,12 +108,12 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_14 = 0.001f;
+	fLocal_14 = 0,001f;
 	iLocal_17 = -1;
 	sLocal_21 = "NULL";
 	fLocal_24 = 0f;
-	fLocal_28 = -0.0375f;
-	fLocal_29 = 0.17f;
+	fLocal_28 = -0,0375f;
+	fLocal_29 = 0,17f;
 	fLocal_33 = 80f;
 	fLocal_34 = 140f;
 	fLocal_35 = 180f;
@@ -122,10 +122,10 @@ void __EntryFunction__()
 	iLocal_45 = 65;
 	iLocal_46 = 49;
 	iLocal_47 = 64;
-	Local_64 = { -1124.392f, -514.7001f, 33.21493f };
+	Local_64 = { -1124,392f, -514,7001f, 33,21493f };
 	fLocal_67 = 200f;
-	Local_68 = { 2490f, 3777f, 2402.879f };
-	Local_71 = { -2052f, 3237f, 1450.078f };
+	Local_68 = { 2490f, 3777f, 2402,879f };
+	Local_71 = { -2052f, 3237f, 1450,078f };
 	iLocal_74 = -1;
 	iLocal_76 = -1;
 	bLocal_85 = true;
@@ -162,24 +162,24 @@ void __EntryFunction__()
 	while (true)
 	{
 		func_11(PLAYER::PLAYER_PED_ID());
-		if (Global_31516 == 1)
+		if (Global_31964 == 1)
 		{
 			func_12();
 		}
 		if (bLocal_85)
 		{
-			if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[0 /*3*/], (290f + 50f)))
+			if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[0 /*3*/], (290f + 50f), 1))
 			{
-				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[1 /*3*/], (290f + 50f)))
+				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[1 /*3*/], (290f + 50f), 1))
 				{
 					func_12();
 				}
 			}
 			if (iLocal_77 != 0)
 			{
-				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[0 /*3*/], (fLocal_90 + 50f)))
+				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[0 /*3*/], (fLocal_90 + 50f), 1))
 				{
-					if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[1 /*3*/], (fLocal_90 + 50f)))
+					if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[1 /*3*/], (fLocal_90 + 50f), 1))
 					{
 						AUDIO::SET_AMBIENT_ZONE_STATE_PERSISTENT("AZ_SPECIAL_UFO_01", false, true);
 						AUDIO::SET_AMBIENT_ZONE_STATE_PERSISTENT("AZ_SPECIAL_UFO_02", false, true);
@@ -197,7 +197,7 @@ void __EntryFunction__()
 				iVar0 = 0;
 				while (iVar0 < Local_78.f_0)
 				{
-					if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iVar0 /*3*/], fLocal_90))
+					if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iVar0 /*3*/], fLocal_90, 1))
 					{
 						iLocal_76 = iVar0;
 						iLocal_77 = 1;
@@ -213,7 +213,7 @@ void __EntryFunction__()
 				iVar0 = 0;
 				while (iVar0 < Local_78.f_0)
 				{
-					if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iVar0 /*3*/], fLocal_87))
+					if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iVar0 /*3*/], fLocal_87, 1))
 					{
 						iLocal_76 = iVar0;
 						iLocal_77 = 2;
@@ -236,7 +236,7 @@ void __EntryFunction__()
 				break;
 			
 			case 3:
-				if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_87))
+				if (func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_87, 1))
 				{
 					iLocal_75 = (MISC::GET_GAME_TIMER() - iLocal_74);
 					if (iLocal_75 >= iLocal_91)
@@ -270,7 +270,7 @@ void __EntryFunction__()
 				{
 					func_4(&iLocal_92);
 				}
-				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_90))
+				if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_90, 1))
 				{
 					func_1();
 					iLocal_76 = -1;
@@ -409,7 +409,7 @@ void func_8()
 	{
 		return;
 	}
-	if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_88))
+	if (!func_10(PLAYER::PLAYER_PED_ID(), Local_78[iLocal_76 /*3*/], fLocal_88, 1))
 	{
 		return;
 	}
@@ -437,9 +437,9 @@ Vector3 func_9(struct<3> Param0)
 	return Param0;
 }
 
-bool func_10(int iParam0, struct<3> Param1, float fParam4)
+bool func_10(int iParam0, struct<3> Param1, float fParam4, bool bParam5)
 {
-	return SYSTEM::VDIST2(ENTITY::GET_ENTITY_COORDS(iParam0, true), Param1) <= (fParam4 * fParam4);
+	return SYSTEM::VDIST2(ENTITY::GET_ENTITY_COORDS(iParam0, bParam5), Param1) <= (fParam4 * fParam4);
 }
 
 bool func_11(int iParam0)

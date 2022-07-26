@@ -46,7 +46,7 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_14 = 0.001f;
+	fLocal_14 = 0,001f;
 	iLocal_17 = -1;
 	sLocal_18 = "NULL";
 	fLocal_23 = 80f;
@@ -175,7 +175,7 @@ int func_3()
 
 var func_4()
 {
-	return Global_1893551[PLAYER::PLAYER_ID() /*599*/].f_10;
+	return Global_1892703[PLAYER::PLAYER_ID() /*599*/].f_10;
 }
 
 bool func_5(int iParam0, bool bParam1)
@@ -187,16 +187,16 @@ bool func_5(int iParam0, bool bParam1)
 			return 0;
 		}
 	}
-	return Global_1893551[iParam0 /*599*/].f_10 != func_3();
+	return Global_1892703[iParam0 /*599*/].f_10 != func_3();
 }
 
 int func_6(int iParam0)
 {
 	if (iParam0 != func_3())
 	{
-		if (Global_1893551[iParam0 /*599*/].f_10 != func_3())
+		if (Global_1892703[iParam0 /*599*/].f_10 != func_3())
 		{
-			return Global_1893551[iParam0 /*599*/].f_10 == iParam0;
+			return Global_1892703[iParam0 /*599*/].f_10 == iParam0;
 		}
 	}
 	return 0;
@@ -221,7 +221,7 @@ int func_8(int iParam0)
 {
 	if (iParam0 != func_3())
 	{
-		return Global_1853131[iParam0 /*888*/].f_267.f_274;
+		return Global_1853348[iParam0 /*834*/].f_267.f_278;
 	}
 	return 0;
 }
@@ -230,7 +230,7 @@ int func_9(int iParam0)
 {
 	if (iParam0 != func_3())
 	{
-		return Global_1853131[iParam0 /*888*/].f_267.f_274 != 0;
+		return Global_1853348[iParam0 /*834*/].f_267.f_278 != 0;
 	}
 	return 0;
 }
@@ -276,11 +276,11 @@ int func_11(int iParam0)
 		
 		case 1:
 			Var0 = { ENTITY::GET_ENTITY_COORDS(iLocal_33, false) };
-			if (Var0.f_2 < 9.7796f)
+			if (Var0.f_2 < 9,7796f)
 			{
 				return 0;
 			}
-			else if (Var0.f_2 > 9.7796f && Var0.f_2 < 16f)
+			else if (Var0.f_2 > 9,7796f && Var0.f_2 < 16f)
 			{
 				return 1;
 			}
@@ -292,11 +292,11 @@ int func_11(int iParam0)
 		
 		case 2:
 			Var0 = { ENTITY::GET_ENTITY_COORDS(iLocal_33, false) };
-			if (Var0.f_2 < 178.9f)
+			if (Var0.f_2 < 178,9f)
 			{
 				return 0;
 			}
-			else if (Var0.f_2 > 178.9f && Var0.f_2 < 188.7f)
+			else if (Var0.f_2 > 178,9f && Var0.f_2 < 188,7f)
 			{
 				return 1;
 			}
@@ -379,7 +379,7 @@ float func_14(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return 28.125f;
+					return 28,125f;
 					break;
 			}
 			break;
@@ -388,19 +388,19 @@ float func_14(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return 32.6875f;
+					return 32,6875f;
 					break;
 				
 				case 1:
-					return 13.1875f;
+					return 13,1875f;
 					break;
 				
 				case 2:
-					return 16.25f;
+					return 16,25f;
 					break;
 				
 				case 3:
-					return 21.75f;
+					return 21,75f;
 					break;
 			}
 			break;
@@ -413,19 +413,19 @@ float func_14(int iParam0, int iParam1)
 					break;
 				
 				case 1:
-					return 78.75f;
+					return 78,75f;
 					break;
 				
 				case 2:
-					return 70.6875f;
+					return 70,6875f;
 					break;
 				
 				case 3:
-					return 64.4375f;
+					return 64,4375f;
 					break;
 				
 				case 4:
-					return 32.375f;
+					return 32,375f;
 					break;
 				
 				case 5:
@@ -437,19 +437,19 @@ float func_14(int iParam0, int iParam1)
 					break;
 				
 				case 7:
-					return 19.78125f;
+					return 19,78125f;
 					break;
 				
 				case 8:
-					return 32.0625f;
+					return 32,0625f;
 					break;
 				
 				case 9:
-					return 35.8125f;
+					return 35,8125f;
 					break;
 				
 				case 10:
-					return 30.5f;
+					return 30,5f;
 					break;
 			}
 			break;
@@ -483,7 +483,7 @@ Vector3 func_15(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return 1240.537f, -3057.289f, 40.75164f;
+					return 1240,537f, -3057,289f, 40,75164f;
 					break;
 			}
 			break;
@@ -492,19 +492,19 @@ Vector3 func_15(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return 34.27837f, -2654.244f, 20.9423f;
+					return 34,27837f, -2654,244f, 20,9423f;
 					break;
 				
 				case 1:
-					return 13.93163f, -2654.561f, 14.44239f;
+					return 13,93163f, -2654,561f, 14,44239f;
 					break;
 				
 				case 2:
-					return 55.59572f, -2667.499f, 10.82245f;
+					return 55,59572f, -2667,499f, 10,82245f;
 					break;
 				
 				case 3:
-					return 34.5866f, -2746.387f, 10.95006f;
+					return 34,5866f, -2746,387f, 10,95006f;
 					break;
 			}
 			break;
@@ -513,47 +513,47 @@ Vector3 func_15(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return -2169.17f, 256.7264f, 203.4081f;
+					return -2169,17f, 256,7264f, 203,4081f;
 					break;
 				
 				case 1:
-					return -2216.394f, 329.4761f, 201.3617f;
+					return -2216,394f, 329,4761f, 201,3617f;
 					break;
 				
 				case 2:
-					return -2345.353f, 350.7882f, 189.6522f;
+					return -2345,353f, 350,7882f, 189,6522f;
 					break;
 				
 				case 3:
-					return -2288.097f, 388.9909f, 200.9045f;
+					return -2288,097f, 388,9909f, 200,9045f;
 					break;
 				
 				case 4:
-					return -2310.263f, 406.638f, 200.9041f;
+					return -2310,263f, 406,638f, 200,9041f;
 					break;
 				
 				case 5:
-					return -2169.221f, 260.5679f, 202.4294f;
+					return -2169,221f, 260,5679f, 202,4294f;
 					break;
 				
 				case 6:
-					return -2258.778f, 166.9506f, 202.8318f;
+					return -2258,778f, 166,9506f, 202,8318f;
 					break;
 				
 				case 7:
-					return -2236.973f, 285.5958f, 203.0395f;
+					return -2236,973f, 285,5958f, 203,0395f;
 					break;
 				
 				case 8:
-					return -2211.362f, 303.6741f, 214.9323f;
+					return -2211,362f, 303,6741f, 214,9323f;
 					break;
 				
 				case 9:
-					return -2282.098f, 383.0904f, 201.0395f;
+					return -2282,098f, 383,0904f, 201,0395f;
 					break;
 				
 				case 10:
-					return -2277.93f, 356.4442f, 201.1015f;
+					return -2277,93f, 356,4442f, 201,1015f;
 					break;
 			}
 			break;
@@ -571,7 +571,7 @@ Vector3 func_15(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return -1451.205f, 2689.44f, -37.62654f;
+					return -1451,205f, 2689,44f, -37,62654f;
 					break;
 			}
 			break;
@@ -587,7 +587,7 @@ Vector3 func_16(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return 1240.535f, -2880.354f, -19.96489f;
+					return 1240,535f, -2880,354f, -19,96489f;
 					break;
 			}
 			break;
@@ -596,19 +596,19 @@ Vector3 func_16(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return 34.15308f, -2747.067f, 1.137565f;
+					return 34,15308f, -2747,067f, 1,137565f;
 					break;
 				
 				case 1:
-					return 13.95777f, -2700.626f, 5.046232f;
+					return 13,95777f, -2700,626f, 5,046232f;
 					break;
 				
 				case 2:
-					return 55.61185f, -2687.681f, 5.005801f;
+					return 55,61185f, -2687,681f, 5,005801f;
 					break;
 				
 				case 3:
-					return 34.56926f, -2759.479f, -0.030933f;
+					return 34,56926f, -2759,479f, -0,030933f;
 					break;
 			}
 			break;
@@ -617,47 +617,47 @@ Vector3 func_16(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return -2317.38f, 191.6319f, 165.4037f;
+					return -2317,38f, 191,6319f, 165,4037f;
 					break;
 				
 				case 1:
-					return -2357.995f, 264.0297f, 162.7988f;
+					return -2357,995f, 264,0297f, 162,7988f;
 					break;
 				
 				case 2:
-					return -2261.433f, 387.3963f, 154.3522f;
+					return -2261,433f, 387,3963f, 154,3522f;
 					break;
 				
 				case 3:
-					return -2326.399f, 408.3378f, 140.3182f;
+					return -2326,399f, 408,3378f, 140,3182f;
 					break;
 				
 				case 4:
-					return -2304.617f, 460.2127f, 140.2147f;
+					return -2304,617f, 460,2127f, 140,2147f;
 					break;
 				
 				case 5:
-					return -2150.825f, 216.4168f, 162.8012f;
+					return -2150,825f, 216,4168f, 162,8012f;
 					break;
 				
 				case 6:
-					return -2172.765f, 203.5957f, 167.4135f;
+					return -2172,765f, 203,5957f, 167,4135f;
 					break;
 				
 				case 7:
-					return -2191.036f, 305.961f, 159.625f;
+					return -2191,036f, 305,961f, 159,625f;
 					break;
 				
 				case 8:
-					return -2227.613f, 340.0587f, 165.1357f;
+					return -2227,613f, 340,0587f, 165,1357f;
 					break;
 				
 				case 9:
-					return -2244.41f, 399.5764f, 137.5101f;
+					return -2244,41f, 399,5764f, 137,5101f;
 					break;
 				
 				case 10:
-					return -2243.261f, 371.4072f, 137.2722f;
+					return -2243,261f, 371,4072f, 137,2722f;
 					break;
 			}
 			break;
@@ -675,7 +675,7 @@ Vector3 func_16(int iParam0, int iParam1)
 			switch (iParam1)
 			{
 				case 0:
-					return -2841.107f, 3506.837f, 1000.474f;
+					return -2841,107f, 3506,837f, 1000,474f;
 					break;
 			}
 			break;
@@ -742,7 +742,7 @@ Vector3 func_19(int iParam0)
 	switch (iParam0)
 	{
 		case 0:
-			return 1240f, -2970f, 12.2f;
+			return 1240f, -2970f, 12,2f;
 			break;
 		
 		case 1:
@@ -750,7 +750,7 @@ Vector3 func_19(int iParam0)
 			break;
 		
 		case 2:
-			return -2250f, 300f, 182.2f;
+			return -2250f, 300f, 182,2f;
 			break;
 		
 		case 3:
@@ -830,7 +830,7 @@ int func_23(int iParam0)
 			return 1;
 		}
 	}
-	if (BitTest(Global_2689224[iParam0 /*451*/].f_197, 2))
+	if (BitTest(Global_2689235[iParam0 /*453*/].f_197, 2))
 	{
 		return 1;
 	}
@@ -852,7 +852,7 @@ bool func_25(int iParam0, int iParam1)
 	}
 	else
 	{
-		bVar0 = Global_1853131[iParam0 /*888*/].f_205 == 8;
+		bVar0 = Global_1853348[iParam0 /*834*/].f_205 == 8;
 	}
 	if (iParam1 == 1)
 	{
@@ -874,7 +874,7 @@ int func_26(int iParam0, bool bParam1)
 	{
 		iVar1 = func_27();
 	}
-	if (Global_1575034[iVar1] == 1)
+	if (Global_1575038[iVar1] == 1)
 	{
 		if (bParam1)
 		{
@@ -883,7 +883,7 @@ int func_26(int iParam0, bool bParam1)
 	}
 	else
 	{
-		iVar0 = Global_1574909[iVar1];
+		iVar0 = Global_1574912[iVar1];
 		if (bParam1)
 		{
 		}
@@ -893,6 +893,6 @@ int func_26(int iParam0, bool bParam1)
 
 int func_27()
 {
-	return Global_1574915;
+	return Global_1574918;
 }
 

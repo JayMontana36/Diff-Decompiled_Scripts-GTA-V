@@ -61,12 +61,12 @@ void __EntryFunction__()
 	iLocal_9 = 1;
 	iLocal_10 = 12;
 	iLocal_11 = 12;
-	fLocal_14 = 0.001f;
+	fLocal_14 = 0,001f;
 	iLocal_17 = -1;
 	sLocal_18 = "NULL";
 	fLocal_21 = 0f;
-	fLocal_25 = -0.0375f;
-	fLocal_26 = 0.17f;
+	fLocal_25 = -0,0375f;
+	fLocal_26 = 0,17f;
 	fLocal_30 = 80f;
 	fLocal_31 = 140f;
 	fLocal_32 = 180f;
@@ -90,13 +90,13 @@ void __EntryFunction__()
 	while (true)
 	{
 		HUD::SET_TEXT_COLOUR(255, 255, 255, 255);
-		HUD::SET_TEXT_SCALE(0.75f, 0.9f);
+		HUD::SET_TEXT_SCALE(0,75f, 0,9f);
 		HUD::SET_TEXT_WRAP(0f, 1f);
-		func_10(0.05f, 0.63f, "PLCHLD_MISS", 0);
+		func_10(0,05f, 0,63f, "PLCHLD_MISS", 0);
 		HUD::SET_TEXT_COLOUR(255, 255, 255, 255);
-		HUD::SET_TEXT_SCALE(0.4f, 0.45f);
+		HUD::SET_TEXT_SCALE(0,4f, 0,45f);
 		HUD::SET_TEXT_WRAP(0f, 1f);
-		func_10(0.05f, 0.7f, "PLCHLD_PASS", 0);
+		func_10(0,05f, 0,7f, "PLCHLD_PASS", 0);
 		func_1();
 		SYSTEM::WAIT(0);
 	}
@@ -133,7 +133,7 @@ void func_1()
 		}
 		else if (VEHICLE::IS_PLAYBACK_GOING_ON_FOR_VEHICLE(iLocal_40))
 		{
-			VEHICLE::SET_PLAYBACK_SPEED(iLocal_40, 0.25f);
+			VEHICLE::SET_PLAYBACK_SPEED(iLocal_40, 0,25f);
 		}
 	}
 }

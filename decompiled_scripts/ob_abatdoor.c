@@ -69,7 +69,7 @@ void __EntryFunction__()
 						{
 							if (SCRIPT::_GET_NUMBER_OF_REFERENCES_OF_SCRIPT_WITH_NAME_HASH(joaat("michael2")) > 0)
 							{
-								if (Global_96411)
+								if (Global_96872)
 								{
 									if (STREAMING::HAS_ANIM_DICT_LOADED("map_objects"))
 									{
@@ -82,19 +82,19 @@ void __EntryFunction__()
 						break;
 					
 					case 3:
-						fVar9 = 0.35f;
-						Var0 = { Local_4 + Vector(3.45f, 0f, 0f) };
+						fVar9 = 0,35f;
+						Var0 = { Local_4 + Vector(3,45f, 0f, 0f) };
 						if (ENTITY::DOES_ENTITY_EXIST(iLocal_3))
 						{
 							Var3 = { ENTITY::GET_ENTITY_COORDS(iLocal_3, true) };
-							if (!func_2(Var3, Var0, 0.1f, 0))
+							if (!func_2(Var3, Var0, 0,1f, 0))
 							{
 								Var6 = { Var0 - Var3 };
 								ENTITY::SET_ENTITY_COORDS(iLocal_3, Var3 + func_1(Var6) * FtoV(MISC::GET_FRAME_TIME()) * Vector(fVar9, fVar9, fVar9), true, false, false, true);
 							}
 							else
 							{
-								Global_96412 = 1;
+								Global_96873 = 1;
 								iLocal_2 = 4;
 							}
 						}
